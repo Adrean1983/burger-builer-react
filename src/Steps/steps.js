@@ -26,3 +26,8 @@ const stepThree = {
   // Display BurgerIngredients inside Burger. Need to hard code the type
   // Put Burger into BurgerBuilder
 };
+
+const stepFour = {
+  // create state in burgerBuilder. Make an ingredients object with key value pairs. Pass the ingredients to the Burger component
+  // Create a const that stores result of Object.keys function. Need to map over the props and then map over the properties.
+};
