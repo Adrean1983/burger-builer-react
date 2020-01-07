@@ -8,3 +8,4 @@ Branches -
 
 - first-exercise <-- Burgeringredient Setup Swtich statement
 - second-exercise <-- Add Proptypes and change to class component
+- third-exercise <-- Make burger component - Display in BurgerBuilder
