@@ -139,8 +139,7 @@ const solutionThree = {
 };
 
 const solutionFour = {
-  //   // --- BurgerBuilder ---
-  //   import React, { Component } from "react";
+  // import React, { Component } from "react";
   // import Auxillary from "../../hoc/Auxillary";
   // import Burger from "../../components/Burger/Burger";
   // class BurgerBuilder extends Component {
@@ -149,7 +148,7 @@ const solutionFour = {
   //       salad: 1,
   //       bacon: 1,
   //       cheese: 2,
-  //       meat: 2
+  //       meat: 1
   //     }
   //   };
   //   render() {
@@ -163,15 +162,23 @@ const solutionFour = {
   // }
   // export default BurgerBuilder;
   //   // ---Burger.js---
-  //   import React from "react";
+  // import React from "react";
   // import classes from "./Burger.module.css";
   // import BurgerIngredient from "./BurgerIngredient/BurgerIngredient";
   // const burger = props => {
-  //   const transformedIngredients = Object.keys(props.ingredients).map(ingredientKey => {
-  //     return [...Array(props.ingredients[ingredientKey])].map((_, i) => {
-  //       return <BurgerIngredient key={ingredientKey + i} type={ingredientKey} />;
-  //     });
-  //   });
+  //   let transformedIngredients = Object.keys(props.ingredients)
+  //     .map(ingredientKey => {
+  //       return [...Array(props.ingredients[ingredientKey])].map((_, i) => {
+  //         return <BurgerIngredient key={ingredientKey + i} type={ingredientKey} />;
+  //       });
+  //     })
+  //     .reduce((arr, el) => {
+  //       return arr.concat(el);
+  //     }, []);
+  //   if (transformedIngredients.length === 0) {
+  //     transformedIngredients = <p>Please start adding ingredients</p>;
+  //   }
+  //   console.log(transformedIngredients);
   //   return (
   //     <div className={classes.Burger}>
   //       <BurgerIngredient type="bread-top" />

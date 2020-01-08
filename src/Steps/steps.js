@@ -30,4 +30,5 @@ const stepThree = {
 const stepFour = {
   // create state in burgerBuilder. Make an ingredients object with key value pairs. Pass the ingredients to the Burger component
   // Create a const that stores result of Object.keys function. Need to map over the props and then map over the properties.
+  // If the ingredients are empty it should disply text Please add ingredients between the burger buns. Need to do a reduce function and concat the arrays and then run a check on the ingredients.
 };
