@@ -189,3 +189,59 @@ const solutionFour = {
   // };
   // export default burger;
 };
+
+const solutionFive = {
+  // --BuildControls--
+  //   import React from "react";
+  // import classes from "./BuildControls.module.css";
+  // import BuildControl from "./BuildControl/BuildControl";
+  // const controls = [
+  //   { label: "Salad", type: "salad" },
+  //   { label: "Bacon", type: "bacon" },
+  //   { label: "Cheese", type: "cheese" },
+  //   { label: "Meat", type: "meat" }
+  // ];
+  // const buildControls = props => (
+  //   <div className={classes.BuildControls}>
+  //     {controls.map(ctrl => (
+  //       <BuildControl key={ctrl.label} label={ctrl.type} />
+  //     ))}
+  //   </div>
+  // );
+  // export default buildControls;
+  // --BuildControl--
+  //   import React from "react";
+  // import classes from "./BuildControl.module.css";
+  // const buildControl = props => (
+  //   <div className={classes.BuildControl}>
+  //     <div className={classes.Label}>{props.label}</div>
+  //     <button className={classes.Less}>Less</button>
+  //     <button className={classes.More}>More</button>
+  //   </div>
+  // );
+  // export default buildControl;
+  // --BugerBuilder--
+  //   import React, { Component } from "react";
+  // import Auxillary from "../../hoc/Auxillary";
+  // import Burger from "../../components/Burger/Burger";
+  // import BuildControls from "../../components/Burger/BuildControls/BuildControls";
+  // class BurgerBuilder extends Component {
+  //   state = {
+  //     ingredients: {
+  //       salad: 1,
+  //       bacon: 1,
+  //       cheese: 2,
+  //       meat: 1
+  //     }
+  //   };
+  //   render() {
+  //     return (
+  //       <Auxillary>
+  //         <Burger ingredients={this.state.ingredients} />
+  //         <BuildControls />
+  //       </Auxillary>
+  //     );
+  //   }
+  // }
+  // export default BurgerBuilder;
+};
