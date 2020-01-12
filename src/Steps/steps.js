@@ -103,3 +103,27 @@ const stepFiveCss = {
   //   color: white;
   // }
 };
+
+const stepSix = {
+  //  Make two functions in Burger Builder addIngredientHandler and removeIngredientHandler
+  // In addIngredientHandler need to get
+  // 1. the count of current type of ingreident in state. The type should be passed as a argument to the function
+  // 2. update the count by 1
+  // 3. take a copy of state.
+  // 4. In the new copy of state save the updated count for the type
+  // 5. Create a global variable called INGREDIENT_PRICES
+  // salad: 0.5,
+  // chesse: 0.4,
+  // meat: 1.3,
+  // bacon: 0.7
+  // 6. Set totalPrice in the state variable and set it to 4. Make new variable that gets current totalPrice.
+  // 7. make  new variable which grabs state price plus the priceaddtion
+  // 8. SetState for price and ingredients
+  // Pass a property called ingredientAdded to BuildControls which runs addIngredientHandler. Pass this property down to the individual build controller as added, this should pass the types down as well. Need to use () => function(parameter) to do this. In buildcontrol add this as an onClick attached to more. Should be able to see ingredients added with the more button now.
+  // In removeIngredientHandler copy the code from addIngredientHandler except minus the count and price deduction.
+  // Pass the function down to buildcontrols and buildcontrol in the same way as addIngredientHandler
+  // Need to make a check is see if the ingredients are 0. In which case return nothing.
+  // To disable the button to delete ingredients if none are present. Create a const called disabledInfo in BurgrBuilder that takes a copy of the ingredients state. Using for a for in loop, loop through this new variable and set the key to be to false if <= 0
+  // Send the disabledInfo variable down to buildcontrols as disabled. Set the less button property disabled the attribute passed down.
+  // To display total price. Send a price property down to buildcontrols. Display the total price above the controls in a strong p tag. use to Fixed.
+};

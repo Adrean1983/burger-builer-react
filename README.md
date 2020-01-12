@@ -11,3 +11,4 @@ Branches -
 - third-exercise <-- Make burger component - Display in BurgerBuilder
 - fourth-exercise <-- Display burger ingredients. Add state use Object.keys to display list.
 - fifth-exercise <-- Add burger controls.
+- sixth-exercise <-- add and remove ingredients from the burger. Show the total price in UI.
