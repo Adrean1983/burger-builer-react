@@ -135,3 +135,11 @@ const stepSeven = {
   // In the order now button use to property to disable or not disable the button
   // Need to call the updatePurchase state function in the add and remove ingredient handlers.
 };
+
+const stepEight = {
+  // make a UI folder in components. Make a Modal folder and a Modal.js(function component receives props) Modal.module.css within. Make a Backdrop folder in the UI folder and a BackDrop.js file within.
+  // modal.js is functional file. The css is provided. Use modal class on main div. Bring Modal into BurgerBuilder and render beneath Auxillary. It needs two tags, because it will wrap OrderSummary
+  // Add a OrderSummary folder with OrderSummary.js (function component receives props) inside the Burger folder. Use an Auxillary wrapping component. Add h3 Your order. and a <p>A delicious burger with the following ingredients: </p> - Then add a empty <ul> and a <p>Continue to Checkout?
+  // Get the ingredients from props. and using the map function get the key and the value and display an li for each. Use a key for each li to avoid iterator error
+  // Bring OrderSummary into BurgerBuilder between the Modal tags.
+};

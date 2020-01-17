@@ -13,3 +13,4 @@ Branches -
 - fifth-exercise <-- Add burger controls.
 - sixth-exercise <-- add and remove ingredients from the burger. Show the total price in UI.
 - seventh-exercise <-- add order button and disable and enable the button.
+- eigth-exervise <-- add the order summary modal

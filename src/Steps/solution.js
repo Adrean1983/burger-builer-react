@@ -512,3 +512,140 @@ const solutionSeven = {
   // );
   // export default buildControls;
 };
+
+const solutionEight = {
+  // --- Modal.module.css ---
+  //   .Modal {
+  //   position: fixed;
+  //   z-index: 500;
+  //   background-color: white;
+  //   width: 70%;
+  //   border: 1px solid #ccc;
+  //   box-shadow: 1px 1px 1px black;
+  //   padding: 16px;
+  //   left: 15%;
+  //   top: 30%;
+  //   box-sizing: border-box;
+  //   transition: all 0.3s ease-out;
+  // }
+  // @media (min-width: 600px) {
+  //   .Modal {
+  //     width: 500px;
+  //     left: calc(50% - 250px);
+  //   }
+  // }
+  // --- Modal.js ---
+  //   import React from "react";
+  // import classes from "./Modal.module.css";
+  // const Modal = props => <div className={classes.Modal}>{props.children}</div>;
+  // export default Modal;
+  // BurgerBuilder.js ---
+  //   import React, { Component } from "react";
+  // import Auxillary from "../../hoc/Auxillary";
+  // import Burger from "../../components/Burger/Burger";
+  // import BuildControls from "../../components/Burger/BuildControls/BuildControls";
+  // import Modal from "../../components/UI/Modal/Modal";
+  // import OrderSummary from "../../components/Burger/OrderSummary/OrderSummary";
+  // const INGREDIENT_PRICES = {
+  //   salad: 0.5,
+  //   cheese: 0.4,
+  //   meat: 1.3,
+  //   bacon: 0.7
+  // };
+  // class BurgerBuilder extends Component {
+  //   state = {
+  //     ingredients: {
+  //       salad: 1,
+  //       bacon: 1,
+  //       cheese: 2,
+  //       meat: 1
+  //     },
+  //     totalPrice: 4,
+  //     purchaseable: false
+  //   };
+  //   updatePurchaseState = ingredients => {
+  //     const sum = Object.keys(ingredients)
+  //       .map(igKey => {
+  //         return ingredients[igKey];
+  //       })
+  //       .reduce((sum, element) => {
+  //         return sum + element;
+  //       }, 0);
+  //     this.setState({ purchaseable: sum > 0 });
+  //   };
+  //   addIngredientHandler = type => {
+  //     const oldCount = this.state.ingredients[type];
+  //     const updatedCount = oldCount + 1;
+  //     const updatedIngredients = {
+  //       ...this.state.ingredients
+  //     };
+  //     updatedIngredients[type] = updatedCount;
+  //     const priceAddition = INGREDIENT_PRICES[type];
+  //     const oldPrice = this.state.totalPrice;
+  //     const newPrice = oldPrice + priceAddition;
+  //     this.setState({ totalPrice: newPrice, ingredients: updatedIngredients });
+  //     this.updatePurchaseState(updatedIngredients);
+  //   };
+  //   removeIngredientHandler = type => {
+  //     const oldCount = this.state.ingredients[type];
+  //     if (oldCount <= 0) {
+  //       return;
+  //     }
+  //     const updatedCount = oldCount - 1;
+  //     const updatedIngredients = {
+  //       ...this.state.ingredients
+  //     };
+  //     updatedIngredients[type] = updatedCount;
+  //     const priceDeduction = INGREDIENT_PRICES[type];
+  //     const oldPrice = this.state.totalPrice;
+  //     const newPrice = oldPrice - priceDeduction;
+  //     this.setState({ totalPrice: newPrice, ingredients: updatedIngredients });
+  //     this.updatePurchaseState(updatedIngredients);
+  //   };
+  //   render() {
+  //     const disabledInfo = {
+  //       ...this.state.ingredients
+  //     };
+  //     for (let key in disabledInfo) {
+  //       disabledInfo[key] = disabledInfo[key] <= 0;
+  //     }
+  //     return (
+  //       <Auxillary>
+  //         <Modal>
+  //           <OrderSummary ingredients={this.state.ingredients} />
+  //         </Modal>
+  //         <Burger ingredients={this.state.ingredients} />
+  //         <BuildControls
+  //           ingredientAdded={this.addIngredientHandler}
+  //           ingredientRemoved={this.removeIngredientHandler}
+  //           disabled={disabledInfo}
+  //           price={this.state.totalPrice}
+  //           purchaseable={this.state.purchaseable}
+  //         />
+  //       </Auxillary>
+  //     );
+  //   }
+  // }
+  // export default BurgerBuilder;
+  // --- OrderSummary ---
+  //   import React from "react";
+  // import Auxillary from "../../../hoc/Auxillary";
+  // const OrderSummary = props => {
+  //   const ingredientSummary = Object.keys(props.ingredients).map(igKey => {
+  //     return (
+  //       <li key={igKey}>
+  //         <span style={{ textTransform: "capitalize" }}>{igKey}</span>: {props.ingredients[igKey]}
+  //       </li>
+  //     );
+  //   });
+  //   return (
+  //     <Auxillary>
+  //       <h3>Your Order</h3>
+  //       <p>A delicious burger with the following ingredients:</p>
+  //       <ul>{ingredientSummary}</ul>
+  //       <p>Continue to Checkout?</p>
+  //     </Auxillary>
+  //   );
+  // };
+  // export default OrderSummary;
+};
