@@ -359,3 +359,156 @@ const solutionSix = {
   // );
   // export default buildControl;
 };
+
+const solutionSeven = {
+  // ---CSS add to build Controls ---
+  // .OrderButton {
+  //     background-color: #DAD735;
+  //     outline: none;
+  //     cursor: pointer;
+  //     border: 1px solid #966909;
+  //     color: #966909;
+  //     font-family: inherit;
+  //     font-size: 1.2em;
+  //     padding: 15px 30px;
+  //     box-shadow: 2px 2px 2px #966909;
+  // }
+  // .OrderButton:hover, .OrderButton:active {
+  //     background-color: #A0DB41;
+  //     border: 1px solid #966909;
+  //     color: #966909;
+  // }
+  // .OrderButton:disabled {
+  //     background-color: #C7C6C6;
+  //     cursor: not-allowed;
+  //     border: 1px solid #ccc;
+  //     color: #888888;
+  // }
+  // .OrderButton:not(:disabled) {
+  //     animation: enable 0.3s linear;
+  // }
+  // @keyframes enable {
+  //     0% {
+  //         transform: scale(1);
+  //     }
+  //     60% {
+  //         transform: scale(1.1);
+  //     }
+  //     100% {
+  //         transform: scale(1);
+  //     }
+  // }
+  // ---BurgerBUilder---
+  //   import React, { Component } from "react";
+  // import Auxillary from "../../hoc/Auxillary";
+  // import Burger from "../../components/Burger/Burger";
+  // import BuildControls from "../../components/Burger/BuildControls/BuildControls";
+  // const INGREDIENT_PRICES = {
+  //   salad: 0.5,
+  //   cheese: 0.4,
+  //   meat: 1.3,
+  //   bacon: 0.7
+  // };
+  // class BurgerBuilder extends Component {
+  //   state = {
+  //     ingredients: {
+  //       salad: 1,
+  //       bacon: 1,
+  //       cheese: 2,
+  //       meat: 1
+  //     },
+  //     totalPrice: 4,
+  //     purchaseable: false
+  //   };
+  //   updatePurchaseState = ingredients => {
+  //     const sum = Object.keys(ingredients)
+  //       .map(igKey => {
+  //         return ingredients[igKey];
+  //       })
+  //       .reduce((sum, element) => {
+  //         return sum + element;
+  //       }, 0);
+  //     this.setState({ purchaseable: sum > 0 });
+  //   };
+  //   addIngredientHandler = type => {
+  //     const oldCount = this.state.ingredients[type];
+  //     const updatedCount = oldCount + 1;
+  //     const updatedIngredients = {
+  //       ...this.state.ingredients
+  //     };
+  //     updatedIngredients[type] = updatedCount;
+  //     const priceAddition = INGREDIENT_PRICES[type];
+  //     const oldPrice = this.state.totalPrice;
+  //     const newPrice = oldPrice + priceAddition;
+  //     this.setState({ totalPrice: newPrice, ingredients: updatedIngredients });
+  //     this.updatePurchaseState(updatedIngredients);
+  //   };
+  //   removeIngredientHandler = type => {
+  //     const oldCount = this.state.ingredients[type];
+  //     if (oldCount <= 0) {
+  //       return;
+  //     }
+  //     const updatedCount = oldCount - 1;
+  //     const updatedIngredients = {
+  //       ...this.state.ingredients
+  //     };
+  //     updatedIngredients[type] = updatedCount;
+  //     const priceDeduction = INGREDIENT_PRICES[type];
+  //     const oldPrice = this.state.totalPrice;
+  //     const newPrice = oldPrice - priceDeduction;
+  //     this.setState({ totalPrice: newPrice, ingredients: updatedIngredients });
+  //     this.updatePurchaseState(updatedIngredients);
+  //   };
+  //   render() {
+  //     const disabledInfo = {
+  //       ...this.state.ingredients
+  //     };
+  //     for (let key in disabledInfo) {
+  //       disabledInfo[key] = disabledInfo[key] <= 0;
+  //     }
+  //     return (
+  //       <Auxillary>
+  //         <Burger ingredients={this.state.ingredients} />
+  //         <BuildControls
+  //           ingredientAdded={this.addIngredientHandler}
+  //           ingredientRemoved={this.removeIngredientHandler}
+  //           disabled={disabledInfo}
+  //           price={this.state.totalPrice}
+  //           purchaseable={this.state.purchaseable}
+  //         />
+  //       </Auxillary>
+  //     );
+  //   }
+  // }
+  // export default BurgerBuilder;
+  // -- BuildControls --
+  //   import React from "react";
+  // import classes from "./BuildControls.module.css";
+  // import BuildControl from "./BuildControl/BuildControl";
+  // const controls = [
+  //   { label: "Salad", type: "salad" },
+  //   { label: "Bacon", type: "bacon" },
+  //   { label: "Cheese", type: "cheese" },
+  //   { label: "Meat", type: "meat" }
+  // ];
+  // const buildControls = props => (
+  //   <div className={classes.BuildControls}>
+  //     <p>
+  //       Currrent Price: <strong>{props.price.toFixed(2)}</strong>
+  //     </p>
+  //     {controls.map(ctrl => (
+  //       <BuildControl
+  //         key={ctrl.label}
+  //         label={ctrl.type}
+  //         added={() => props.ingredientAdded(ctrl.type)}
+  //         removed={() => props.ingredientRemoved(ctrl.type)}
+  //         disabled={props.disabled[ctrl.type]}
+  //       />
+  //     ))}
+  //     <button className={classes.OrderButton} disabled={!props.purchaseable}>
+  //       Order Now
+  //     </button>
+  //   </div>
+  // );
+  // export default buildControls;
+};

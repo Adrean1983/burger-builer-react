@@ -127,3 +127,11 @@ const stepSix = {
   // Send the disabledInfo variable down to buildcontrols as disabled. Set the less button property disabled the attribute passed down.
   // To display total price. Send a price property down to buildcontrols. Display the total price above the controls in a strong p tag. use to Fixed.
 };
+
+const stepSeven = {
+  // Add an Order Now button in Build Controls. Add CSS from file for the button.
+  // Add a purchaseable value in BurgerBuilder set to false.
+  // Create a function in BurgerBuilder called updatePurchaseState. Need to look at the ingredients (the updated ingredients from the add/removeIngredientsHandler functions) with Object.keys and use a map and a reduce chained function to get the sum of ingredients. Set the state with 'sum > 0' this returns true or false. Pass the property down to build controls.
+  // In the order now button use to property to disable or not disable the button
+  // Need to call the updatePurchase state function in the add and remove ingredient handlers.
+};
