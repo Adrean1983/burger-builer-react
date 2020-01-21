@@ -143,3 +143,24 @@ const stepEight = {
   // Get the ingredients from props. and using the map function get the key and the value and display an li for each. Use a key for each li to avoid iterator error
   // Bring OrderSummary into BurgerBuilder between the Modal tags.
 };
+
+const stepNine = {
+  // Showing the order modal and closing the order modal
+  // Add a new state property called purchasing and set it to false
+  // Add a method that toggles this new property. Pass it to build controls on the order button and use an onClick function
+  // Create a property on the Modal in burger builder called show. Inside Modal.js use a ternary to display or not display these properties. transform: "translateY(0)" or "translateY(-100vh)" opacity:  "1" or "0"
+  // In Backdrop.js make it functional. It recevies props.
+  // display a div or null based on if the show prop is true or not
+  // Add a backdrop css file and include the following styles. Use this file in the div in backdrop
+  // .Backdrop {
+  // width: 100%;
+  // height: 100%;
+  // position: fixed;
+  // z-index: 100;
+  // left: 0;
+  // top: 0;
+  // background-color: rgba(0, 0, 0, 0.5);
+  // }
+  // Need to bring Backdrop into the modal file. Wrap the current div and the backdrop in an Auxillary tag. Pass down the show.
+  // add a clicked prop to the Backdrop. Its passed down from modal.js as modalClosed. It calls purchaseCancelHandler in BurgerBuilder.js. It changes the purchasing state.
+};
