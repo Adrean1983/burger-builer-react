@@ -172,3 +172,17 @@ const stepTen = {
   // Import the Button.js to the orderSummary. add the btnType and clicked to the custom button. Clicked for cancel and continue will be passed down from BurgerBuilder
   // pass purchaseCancelHandler funciton as the cancel prop and create a function called purchaseContinueHandler that just alerts ('you continue') as the continue prop.
 };
+
+const stepEleven = {
+  // Add total to ordersummary
+  // Display Total Price: to the ordersummary. Pass it down from BurgerBuilder. Use toFixed(2)
+  // Add a Toolbar
+  // Add a Navigation in the components folder and inside add a toolbar folder and a toolbar.js
+  // Make a function component with props. header tag a div with MENU a div with LOGO and a nav bar with ...
+  // Make a css Toolbar file. Pass this to header.
+  // Add the Toolbar to the Layout folder. Need to add the toolbar height to the existing height in the layout css folder.
+  // Add Logo
+  // In components folder add a Logo folder with a Logo.js file. It's a functional component.
+  // Import the burger logo image from the asset file. make a div with the img tag inside. Use css styles on div and src the image.
+  // Add this component to the toolbar for the logo
+};

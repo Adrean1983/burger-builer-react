@@ -16,3 +16,4 @@ Branches -
 - eigth-exercise <-- add the order summary modal
 - ninth-exercise <-- add a backdrop and close the order modal
 - tenth-exercise <-- add a custom button UI file and add buttons to order summary
+- eleventh-exervise <-- show total order price - Add tool bar and logo

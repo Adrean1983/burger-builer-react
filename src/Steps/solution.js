@@ -953,3 +953,55 @@ const solutionTen = {
   // }
   // export default BurgerBuilder;
 };
+
+const solutionEleven = {
+  // --- Toolbar.js ---
+  //   import React from "react";
+  // import classes from "./Toolbar.module.css";
+  // import Logo from "../../Logo/Logo";
+  // const Toolbar = props => {
+  //   return (
+  //     <header className={classes.Toolbar}>
+  //       <div>MENU</div>
+  //       <Logo />
+  //       <nav>...</nav>
+  //     </header>
+  //   );
+  // };
+  // export default Toolbar;
+  // --- Logo.js ---
+  //   import React from "react";
+  // import burgerLogo from "../assets/images/burger-logo.png";
+  // import classes from "./Logo.module.css";
+  // const Logo = props => (
+  //   <div className={classes.Logo}>
+  //     <img src={burgerLogo} alt="MyBurger" />
+  //   </div>
+  // );
+  // export default Logo;
+  // --- Layout.js ---
+  //   import React from "react";
+  // import Auxillary from "../../hoc/Auxillary";
+  // import classes from "./Layout.module.css";
+  // import Toolbar from "../Navigation/Toolbar/Toolbar";
+  // const layout = props => (
+  //   <Auxillary>
+  //     <Toolbar />
+  //     <main className={classes.Content}>{props.children}</main>
+  //   </Auxillary>
+  // );
+  // export default layout;
+  // --- OrderSummary ---
+  //   <ul>{ingredientSummary}</ul>
+  // <p>
+  //   <strong>Total Price: ${props.price.toFixed(2)}</strong>
+  // </p>
+  // <p>Continue to Checkout?</p>
+  // --- BurgerBuilder ---
+  //   <OrderSummary
+  //   ingredients={this.state.ingredients}
+  //   purchaseCanceled={this.purchaseCancelHandler}
+  //   purchaseContinued={this.purchaseContinueHandler}
+  //   price={this.state.totalPrice}
+  // />
+};
