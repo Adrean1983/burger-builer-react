@@ -164,3 +164,11 @@ const stepNine = {
   // Need to bring Backdrop into the modal file. Wrap the current div and the backdrop in an Auxillary tag. Pass down the show.
   // add a clicked prop to the Backdrop. Its passed down from modal.js as modalClosed. It calls purchaseCancelHandler in BurgerBuilder.js. It changes the purchasing state.
 };
+
+const stepTen = {
+  // Adding a custom Button
+  // Add a cancel and continue button in Order Summary. Need to add a folder with a  Button.js in the UI folder. It's functional component.
+  // need to add onClick with props.clicked and display props.children. For the className need to import the css and pass down an array of the Button as the first index then dynamically show the next one as btnType. Add a join(" ") to make it strings
+  // Import the Button.js to the orderSummary. add the btnType and clicked to the custom button. Clicked for cancel and continue will be passed down from BurgerBuilder
+  // pass purchaseCancelHandler funciton as the cancel prop and create a function called purchaseContinueHandler that just alerts ('you continue') as the continue prop.
+};
