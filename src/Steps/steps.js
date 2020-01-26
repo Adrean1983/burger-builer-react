@@ -186,3 +186,103 @@ const stepEleven = {
   // Import the burger logo image from the asset file. make a div with the img tag inside. Use css styles on div and src the image.
   // Add this component to the toolbar for the logo
 };
+
+const stepTwelve = {
+  // Creating Navigation
+  // Create a subfolder navigationItems in navigation folder and add a file called NavigationItems. It's a functional component that has a ul
+  // Make a further sub folder called NavigationItem with a file of same name. It's a function component with a li that has an anchor tag
+  // Make a NavigationsItems css file with the following.
+  //   .NavigationItems {
+  //   margin: 0;
+  //   padding: 0;
+  //   list-style: none;
+  //   display: flex;
+  //   align-items: center;
+  //   height: 100%;
+  // }
+  // make a naviationItem css file too.
+  //   .NavigationItem {
+  //   margin: 0;
+  //   box-sizing: border-box;
+  //   display: flex;
+  //   height: 100%;
+  //   align-items: center;
+  // }
+  // .NavigationItem a {
+  //   color: white;
+  //   text-decoration: none;
+  //   height: 100%;
+  //   padding: 16px 10px;
+  //   border-bottom: 4px solid transparent;
+  //   box-sizing: border-box;
+  //   display: block;
+  // }
+  // .NavigationItem a:hover,
+  // .NavigationItem a:active,
+  // .NavigationItem a.active {
+  //   background-color: #8f5c2c;
+  //   border-bottom: 4px solid #40a4c8;
+  //   color: white;
+  // }
+  // import navigationItem to navigationItems. and display. Back in Navigtation item pass props props.link for Href. Then conditionally show the active class for the className props.active. In the anchor tag do props.children.
+  // Nack in navigationItems make a link called Burger Builder and a Checkout.
+  // Add the NavigationItems in the toolbar component.
+  // Make a sidedraw folder and file in Navigation folder. It's a functional component that receives props
+  // It show siplay the Logo component and inside a <nav> tag the NavigationItems component.
+  // Make a SideDraw CSS file.
+  // .SideDraw {
+  //   position: fixed;
+  //   width: 280px;
+  //   max-width: 70%;
+  //   height: 100%;
+  //   left: 0;
+  //   top: 0;
+  //   z-index: 200;
+  //   background-color: white;
+  //   padding: 32px 16px;
+  //   box-sizing: border-box;
+  //   transition: transform 0.3s ease-out;
+  // }
+  // @media (min-width: 500px) {
+  //   .SideDraw {
+  //     display: none;
+  //   }
+  // }
+  // .Open {
+  //   transition: translateX(0);
+  // }
+  // .Close {
+  //   transition: translateX(-100%);
+  // }
+  // Import the css file and giv it on the main <div className=""></div>
+  // Import the Sidedraw in the Layout.js file and display underneath the Toolbar
+  // The burger will be too big at this point.
+  // Set the Css for the logo height to 100% in the css file.
+  // Restrict the height in the Toolbar and the sidedraw
+  // Wrap the Logo in a div inside the Toolbar and Sidedraw. Inside their respective css files create a logo css file and set the height to 11% for the Sidedraw and 80% for the Toolbar
+  // --- Layout.js ---
+  //   import React from "react";
+  // import Auxillary from "../../hoc/Auxillary";
+  // import classes from "./Layout.module.css";
+  // import Toolbar from "../Navigation/Toolbar/Toolbar";
+  // import SideDraw from "../Navigation/SideDraw/SideDraw";
+  // const layout = props => (
+  //   <Auxillary>
+  //     <Toolbar />
+  //     <SideDraw />
+  //     <main className={classes.Content}>{props.children}</main>
+  //   </Auxillary>
+  // );
+  // export default layout;
+  // --- Logo.module.css ---
+  //   .Logo {
+  //   background-color: white;
+  //   padding: 8px;
+  //   height: 100%;
+  //   box-sizing: border-box;
+  //   border-radius: 5px;
+  // }
+  // .Logo img {
+  //   height: 100%;
+  // }
+};

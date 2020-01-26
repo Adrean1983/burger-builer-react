@@ -1005,3 +1005,67 @@ const solutionEleven = {
   //   price={this.state.totalPrice}
   // />
 };
+
+const solutionTweleve = {
+  // ---NavigationsItems.js ---
+  //   import React from "react";
+  // import classes from "./NavigationItems.module.css";
+  // import NavigationItem from "./NavigationItem/NavigationItem";
+  // const NavigationItems = () => (
+  //   <ul className={classes.NavigationItems}>
+  //     <NavigationItem link="/" active>
+  //       BurgerBuilder
+  //     </NavigationItem>
+  //     <NavigationItem link="/">Checkout</NavigationItem>
+  //   </ul>
+  // );
+  // export default NavigationItems;
+  // --- NavigationItem.js ---
+  //   import React from "react";
+  // import classes from "./NavigationItem.module.css";
+  // const NavigationItem = props => (
+  //   <li className={classes.NavigationItem}>
+  //     <a href={props.link} className={props.active ? classes.active : null}>
+  //       {props.children}
+  //     </a>
+  //   </li>
+  // );
+  // export default NavigationItem;
+  // --- Toolbarjs ---
+  //   import React from "react";
+  // import classes from "./Toolbar.module.css";
+  // import Logo from "../../Logo/Logo";
+  // import NavigationItems from "../NavigationItems/NavigationItems";
+  // const Toolbar = props => {
+  //   return (
+  //     <header className={classes.Toolbar}>
+  //       <div>MENU</div>
+  //       <div className={classes.Logo}>
+  //         <Logo />
+  //       </div>
+  //       <nav>
+  //         <NavigationItems />
+  //       </nav>
+  //     </header>
+  //   );
+  // };
+  // export default Toolbar;
+  // --- SideDraw ---
+  //   import React from "react";
+  // import Logo from "../../Logo/Logo";
+  // import NavigationItems from "../NavigationItems/NavigationItems";
+  // import classes from "./SideDraw.module.css";
+  // const SideDraw = props => {
+  //   return (
+  //     <div className={classes.SideDraw}>
+  //       <div className={classes.Logo}>
+  //         <Logo />
+  //       </div>
+  //       <nav>
+  //         <NavigationItems />
+  //       </nav>
+  //     </div>
+  //   );
+  // };
+  // export default SideDraw;
+};
