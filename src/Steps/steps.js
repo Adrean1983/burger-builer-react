@@ -286,3 +286,11 @@ const stepTwelve = {
   //   height: 100%;
   // }
 };
+
+const stepThirteen = {
+  // A bunch of saved CSS
+  // import backdrop to sidedraw put at top. Need to add Aux.
+  // Conver the Layout js file to a class component.
+  // add a method called sideDrawClosedHandler and state(showSideDraw) in layout.js. it should set the showSideDraw state. Pass this method to sideDraw
+  // Set another property to sideDraw in layout js called open.
+};
