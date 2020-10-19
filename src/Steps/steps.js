@@ -293,4 +293,8 @@ const stepThirteen = {
   // Conver the Layout js file to a class component.
   // add a method called sideDrawClosedHandler and state(showSideDraw) in layout.js. it should set the showSideDraw state. Pass this method to sideDraw
   // Set another property to sideDraw in layout js called open.
+  // Add a drawertoogle file that is a function component with three divs and styling
+  // Drawtoogle is passed a method from Layout which toggles the sidedrawer
 };
+
+const stepFourteen = {};

@@ -1083,3 +1083,69 @@ const solutionTweleve = {
   // );
   // export default layout;
 };
+
+const solutionThirteen = {
+  // sideDraw
+  //   const SideDraw = (props) => {
+  //   let attachedClasses = [classes.SideDraw, classes.Close];
+  //   if (props.open) {
+  //     attachedClasses = [classes.SideDraw, classes.Open];
+  //   }
+  //   return (
+  //     <Auxillary>
+  //       <Backdrop show={props.open} clicked={props.closed} />
+  //       <div className={attachedClasses.join(' ')}>
+  //         <div className={classes.Logo}>
+  //           <Logo />
+  //         </div>
+  //         <nav>
+  //           <NavigationItems />
+  //         </nav>
+  //       </div>
+  //     </Auxillary>
+  //   );
+  // };
+  // Layout
+  // import React, { Component } from 'react';
+  // import Auxillary from '../../hoc/Auxillary';
+  // import classes from './Layout.module.css';
+  // import Toolbar from '../Navigation/Toolbar/Toolbar';
+  // import SideDraw from '../Navigation/SideDraw/SideDraw';
+  // class Layout extends Component {
+  //   state = {
+  //     showSideDraw: false,
+  //   };
+  //   sideDrawClosedHandler = () => {
+  //     this.setState({ showSideDraw: false });
+  //   };
+  //   sideDrawerToggleHandler = () => {
+  //     this.setState((prevState) => {
+  //       return { showSideDraw: !prevState.showSideDraw };
+  //     });
+  //   };
+  //   render() {
+  //     return (
+  //       <Auxillary>
+  //         <Toolbar drawerToggleClicked={this.sideDrawerToggleHandler} />
+  //         <SideDraw open={this.state.showSideDraw} closed={this.sideDrawClosedHandler} />
+  //         <main className={classes.Content}>{this.props.children}</main>
+  //       </Auxillary>
+  //     );
+  //   }
+  // }
+  // export default Layout;
+  // Toolbar
+  //   const Toolbar = (props) => {
+  //   return (
+  //     <header className={classes.Toolbar}>
+  //       <DrawerToggle clicked={props.drawerToggleClicked} />
+  //       <div className={classes.Logo}>
+  //         <Logo />
+  //       </div>
+  //       <nav className={classes.DesktopOnly}>
+  //         <NavigationItems />
+  //       </nav>
+  //     </header>
+  //   );
+  // };
+};
