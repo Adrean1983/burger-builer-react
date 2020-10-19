@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import Auxillary from "../../hoc/Auxillary";
-import classes from "./Layout.module.css";
-import Toolbar from "../Navigation/Toolbar/Toolbar";
-import SideDraw from "../Navigation/SideDraw/SideDraw";
+import React, { Component } from 'react';
+import Auxillary from '../../hoc/Auxillary';
+import classes from './Layout.module.css';
+import Toolbar from '../Navigation/Toolbar/Toolbar';
+import SideDraw from '../Navigation/SideDraw/SideDraw';
 
 class Layout extends Component {
   state = {
-    showSideDraw: false
+    showSideDraw: false,
   };
 
   sideDrawClosedHandler = () => {
